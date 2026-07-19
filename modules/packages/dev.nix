@@ -23,17 +23,8 @@
     # Gerenciador de ambientes/projetos Python (rapido, substitui pip+venv).
     uv
 
-    # --------------------------------------------------------------
-    # Multiplas versoes de Python disponiveis lado a lado.
-    # Comandos: python3.10 ... python3.13
-    # O 'python3'/'python' default aponta para o 3.13 (ver abaixo).
-    # Estas sao versoes "cruas" (so o interpretador). Bibliotecas
-    # ficam por projeto via uv/flake — nao no sistema.
-    # --------------------------------------------------------------
-    python310
-    python311
-    python312
-    python313
+    # Python    
+     python313
 
     # Faz 'python' apontar para 'python3.13' de forma real (symlink no
     # profile do sistema; funciona tambem para scripts, nao so no shell
