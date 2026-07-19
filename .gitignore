@@ -1,0 +1,9 @@
+# Artefatos de resultado do Nix
+result
+result-*
+
+# direnv
+.direnv/
+
+# venvs de projeto (nao versionar aqui na raiz)
+.venv/
