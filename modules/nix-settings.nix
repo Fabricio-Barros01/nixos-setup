@@ -37,10 +37,10 @@
     glibc
     # graficos / libs que wheels cientificas as vezes pedem
     libGL
-    xorg.libX11
-    xorg.libXext
-    xorg.libXrender
-    xorg.libXi
+    libX11
+    libXext
+    libXrender
+    libXi
     fontconfig
     freetype
   ];
