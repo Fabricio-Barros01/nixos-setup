@@ -24,7 +24,7 @@
     uv
 
     # Python    
-     python313
+    python313
 
     # Faz 'python' apontar para 'python3.13' de forma real (symlink no
     # profile do sistema; funciona tambem para scripts, nao so no shell
