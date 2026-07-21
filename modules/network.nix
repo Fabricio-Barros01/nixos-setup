@@ -21,10 +21,10 @@
     checkReversePath = "strict";
   };
 
-  services.resolved = {
+  services.resolved.settings.Resolve = {
     enable = true;
-    dnssec = "allow-downgrade";
-    dnsovertls = "opportunistic";
+    DNSSEC = "allow-downgrade";
+    DNSOverTLS = "opportunistic";
   };
 
   # services.openssh = {
