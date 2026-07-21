@@ -75,4 +75,10 @@
     usbutils
     pciutils
   ];
+
+ services.clamav = {
+  updater.enable = true;
+  daemon.enable = false;
+ };
+
 }
