@@ -26,6 +26,9 @@
     # Python    
     python313
 
+    #IA (Local)
+    ollama
+
     # Faz 'python' apontar para 'python3.13' de forma real (symlink no
     # profile do sistema; funciona tambem para scripts, nao so no shell
     # interativo). python3.10..3.13 seguem acessiveis pelos nomes
