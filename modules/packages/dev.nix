@@ -26,6 +26,10 @@
     # Python    
     python313
 
+    #LaTEx
+    miktex
+
+
     #IA (Local)
     ollama
 
