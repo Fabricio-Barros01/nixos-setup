@@ -36,4 +36,12 @@
   #     X11Forwarding = false;
   #   };
   # };
+  hardware.bluetooth = {
+    enable = true;
+    powerOnBoot = true;
+  };
+  services.blueman.enable = true;
 }
+
+
+
