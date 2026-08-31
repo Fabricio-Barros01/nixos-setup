@@ -12,6 +12,10 @@
     # o ParaView que vem junto do openfoam2412-default dentro do container.
     paraview
 
+    #Wine
+
+    wine64
+
     # Escritorio
     libreoffice-fresh
   ];
