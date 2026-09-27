@@ -6,6 +6,8 @@
     # Controle de versao / editores
     git
     vscode
+    nodejs
+    docker
 
     # Toolchains de build (C/C++, usados por extensoes nativas de Python etc.)
     gcc
@@ -29,6 +31,8 @@
     #LaTEx
     miktex
 
+    #Antigravity (Google)
+    antigravity
 
     #IA (Local)
     ollama
