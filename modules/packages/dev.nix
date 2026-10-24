@@ -8,6 +8,9 @@
     vscode
     nodejs
     docker
+    podman-desktop
+    kubectl
+    podman
 
     # Toolchains de build (C/C++, usados por extensoes nativas de Python etc.)
     gcc
@@ -46,4 +49,7 @@
       ln -s ${python313}/bin/python3.13 $out/bin/python
     ''))
   ];
+
+
+
 }

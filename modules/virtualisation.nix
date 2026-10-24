@@ -19,4 +19,6 @@
   # DWSIM     -> distrobox create -n dwsim   --image ubuntu:24.04
   # OpenFOAM  -> distrobox create -n openfoam --image ubuntu:24.04
   # (passos de instalacao dentro de cada container em templates/DISTROBOX.md)
+
+
 }

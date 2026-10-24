@@ -5,6 +5,7 @@
   environment.systemPackages = with pkgs; [
     # Navegador (o Firefox esta habilitado via programs.firefox em users.nix)
     brave
+    anki
   ];
 
   # Removidos do setup anterior (eram sobra de tutorial Hyprland/Sway e

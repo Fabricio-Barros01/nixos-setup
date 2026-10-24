@@ -27,4 +27,10 @@
   # .org/Foundation, diferente). Passos em templates/DISTROBOX.md.
   #
   # DWSIM: idem — .NET/Mono, roda no container Ubuntu via distrobox.
-}
+
+programs.bash.shellAliases = {
+  openfoam = "podman run -it --rm -v ~/OpenFOAM/run:/data -w /data docker.io/opencfd/openfoam-default";
+};
+
+  }
+
