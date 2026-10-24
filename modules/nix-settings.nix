@@ -66,7 +66,8 @@
   # -------------------------------------------------------------------
   programs.bash.promptInit = ''
     if [ -z "$CONTAINER_ID" ]; then
-      PS1='\n\[\e[1;34m\] \[\e[1;32m\][\u@\h:\w]\$\[\e[0m\] '
+      nix_icon=$(printf '\u2744\ufe0f')   # ❄️
+      PS1='\n''${nix_icon} \[\e[1;32m\][\u@\h:\w]\$\[\e[0m\] '
     fi
   '';
 }

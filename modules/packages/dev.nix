@@ -12,6 +12,9 @@
     kubectl
     podman
 
+    kitty
+    ghostty
+
     # Toolchains de build (C/C++, usados por extensoes nativas de Python etc.)
     gcc
     gnumake
