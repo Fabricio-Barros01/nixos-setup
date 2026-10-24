@@ -55,4 +55,18 @@
     enable = true;
     nix-direnv.enable = true;
   };
+
+  # Nerd Font — necessaria para o logo do NixOS no prompt.
+  fonts.packages = with pkgs; [ nerd-fonts.jetbrains-mono ];
+
+  # -------------------------------------------------------------------
+  # Prompt do bash com o logo do NixOS (precisa de Nerd Font no
+  # terminal). O 'if' impede que o prompt vaze para containers
+  # distrobox, que definem $CONTAINER_ID.
+  # -------------------------------------------------------------------
+  programs.bash.promptInit = ''
+    if [ -z "$CONTAINER_ID" ]; then
+      PS1='\n\[\e[1;34m\] \[\e[1;32m\][\u@\h:\w]\$\[\e[0m\] '
+    fi
+  '';
 }
