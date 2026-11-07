@@ -40,8 +40,7 @@
     #Antigravity (Google)
     antigravity
 
-    #IA (Local)
-    ollama
+    #IA (Local): ollama vem de services.ollama (modules/ai.nix)
 
     # Faz 'python' apontar para 'python3.13' de forma real (symlink no
     # profile do sistema; funciona tambem para scripts, nao so no shell

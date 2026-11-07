@@ -11,6 +11,7 @@
     # OpenFOAM no container distrobox e abre os resultados aqui, ou usa
     # o ParaView que vem junto do openfoam2412-default dentro do container.
     paraview
+    gmsh
 
     #Wine
 

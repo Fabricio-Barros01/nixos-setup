@@ -23,6 +23,7 @@
     ./modules/nix-settings.nix
     ./modules/virtualisation.nix
     ./modules/security.nix
+    ./modules/ai.nix
 
     # Conjuntos de pacotes
     ./modules/packages/base.nix
